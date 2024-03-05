@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
+import Link from 'next/link'
 
 export default function Form(params) {
     const [formState, setFormState] = useState({
@@ -113,9 +114,7 @@ export default function Form(params) {
     }
 
     const handleSubmit = async e => {
-        e.preventDefault()
         setFormState({ ...formState, createdAt: new Date() })
-        console.log(formState)
 
         const response = await fetch('/api/createForm', {
             method: 'POST',
@@ -128,7 +127,6 @@ export default function Form(params) {
         const data = await response.json()
 
         if (data.success) {
-            this.props.history.push('/thank-you')
         } else {
             alert('Виникла помилка при відправці форми')
         }
@@ -1750,11 +1748,12 @@ export default function Form(params) {
                     </div>
                 </div>
 
-                <button
-                    type="submit"
+                <Link
+                    onClick={handleSubmit}
+                    href={'/thank-you'}
                     className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                     Відправити
-                </button>
+                </Link>
             </form>
         </div>
     )
