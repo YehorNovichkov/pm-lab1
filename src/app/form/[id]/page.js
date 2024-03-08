@@ -1288,6 +1288,7 @@ export default function Form({ params }) {
                                     id="pages1"
                                     name="pages1"
                                     disabled={!editMode}
+                                    checked={formState.pages1}
                                     value={formState.pages1}
                                     onChange={handleChangeCheckbox}
                                 />
@@ -1303,6 +1304,7 @@ export default function Form({ params }) {
                                     id="pages2"
                                     name="pages2"
                                     disabled={!editMode}
+                                    checked={formState.pages2}
                                     value={formState.pages2}
                                     onChange={handleChangeCheckbox}
                                 />
@@ -1318,6 +1320,7 @@ export default function Form({ params }) {
                                     id="pages3"
                                     name="pages3"
                                     disabled={!editMode}
+                                    checked={formState.pages3}
                                     value={formState.pages3}
                                     onChange={handleChangeCheckbox}
                                 />
@@ -1333,6 +1336,7 @@ export default function Form({ params }) {
                                     id="pages4"
                                     name="pages4"
                                     disabled={!editMode}
+                                    checked={formState.pages4}
                                     value={formState.pages4}
                                     onChange={handleChangeCheckbox}
                                 />
@@ -1348,6 +1352,7 @@ export default function Form({ params }) {
                                     id="pages5"
                                     name="pages5"
                                     disabled={!editMode}
+                                    checked={formState.pages5}
                                     value={formState.pages5}
                                     onChange={handleChangeCheckbox}
                                 />
@@ -1363,6 +1368,7 @@ export default function Form({ params }) {
                                     id="pages6"
                                     name="pages6"
                                     disabled={!editMode}
+                                    checked={formState.pages6}
                                     value={formState.pages6}
                                     onChange={handleChangeCheckbox}
                                 />
@@ -1378,6 +1384,7 @@ export default function Form({ params }) {
                                     id="pages7"
                                     name="pages7"
                                     disabled={!editMode}
+                                    checked={formState.pages7}
                                     value={formState.pages7}
                                     onChange={handleChangeCheckbox}
                                 />
@@ -1393,6 +1400,7 @@ export default function Form({ params }) {
                                     id="pages8"
                                     name="pages8"
                                     disabled={!editMode}
+                                    checked={formState.pages8}
                                     value={formState.pages8}
                                     onChange={handleChangeCheckbox}
                                 />
@@ -1408,6 +1416,7 @@ export default function Form({ params }) {
                                     id="pages9"
                                     name="pages9"
                                     disabled={!editMode}
+                                    checked={formState.pages9}
                                     value={formState.pages9}
                                     onChange={handleChangeCheckbox}
                                 />
@@ -1423,6 +1432,7 @@ export default function Form({ params }) {
                                     id="pages10"
                                     name="pages10"
                                     disabled={!editMode}
+                                    checked={formState.pages10}
                                     value={formState.pages10}
                                     onChange={handleChangeCheckbox}
                                 />
@@ -1464,6 +1474,7 @@ export default function Form({ params }) {
                                     id="additionalFeatures1"
                                     name="additionalFeatures1"
                                     disabled={!editMode}
+                                    checked={formState.additionalFeatures1}
                                     value={formState.additionalFeatures1}
                                     onChange={handleChangeCheckbox}
                                 />
@@ -1479,6 +1490,7 @@ export default function Form({ params }) {
                                     id="additionalFeatures2"
                                     name="additionalFeatures2"
                                     disabled={!editMode}
+                                    checked={formState.additionalFeatures2}
                                     value={formState.additionalFeatures2}
                                     onChange={handleChangeCheckbox}
                                 />
@@ -1494,6 +1506,7 @@ export default function Form({ params }) {
                                     id="additionalFeatures3"
                                     name="additionalFeatures3"
                                     disabled={!editMode}
+                                    checked={formState.additionalFeatures3}
                                     value={formState.additionalFeatures3}
                                     onChange={handleChangeCheckbox}
                                 />
@@ -1509,6 +1522,7 @@ export default function Form({ params }) {
                                     id="additionalFeatures4"
                                     name="additionalFeatures4"
                                     disabled={!editMode}
+                                    checked={formState.additionalFeatures4}
                                     value={formState.additionalFeatures4}
                                     onChange={handleChangeCheckbox}
                                 />
@@ -1524,6 +1538,7 @@ export default function Form({ params }) {
                                     id="additionalFeatures5"
                                     name="additionalFeatures5"
                                     disabled={!editMode}
+                                    checked={formState.additionalFeatures5}
                                     value={formState.additionalFeatures5}
                                     onChange={handleChangeCheckbox}
                                 />
@@ -1539,6 +1554,7 @@ export default function Form({ params }) {
                                     id="additionalFeatures6"
                                     name="additionalFeatures6"
                                     disabled={!editMode}
+                                    checked={formState.additionalFeatures6}
                                     value={formState.additionalFeatures6}
                                     onChange={handleChangeCheckbox}
                                 />
